@@ -26,7 +26,7 @@ setup(
     install_requires=["gspread","pandas","requests","matplotlib","seaborn"],
     entry_points={
         "console_scripts": [
-            "PyVisualizer=PyVisualizer.Visualizer:main",
+            "PyVisualizer=PyVisualizer.Visualizer:__init__",
         ]
     },
 )
