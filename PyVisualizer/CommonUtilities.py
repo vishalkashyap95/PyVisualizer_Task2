@@ -3,7 +3,7 @@ import gspread
 
 class CommonUtilities:
 
-    def connectAndAutorizeToSeriveAccount(self, serviceAccountFilePath):
+    def connectAndAutorizeToServiceAccount(self, serviceAccountFilePath):
         """
         This method will connect to google service account which is configured in ser_account.json file.
         If successfully connected the it will initialize 'connectedClientObj' variable and set 'isConnectionSuccessful' variable to True
