@@ -5,8 +5,8 @@ class CommonUtilities:
 
     def connectAndAutorizeToServiceAccount(self, serviceAccountFilePath):
         """
-        This method will connect to google service account which is configured in ser_account.json file.
-        If successfully connected the it will initialize 'connectedClientObj' variable and set 'isConnectionSuccessful' variable to True
+        This method will connect to google service account which is configured in service_account.json file.
+        If successfully connected the it will return client connection obj
         """
         scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/auth/spreadsheets',
                  "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
