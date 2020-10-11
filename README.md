@@ -27,9 +27,9 @@ CommonUtilities class holds 2 methods.<br>
 <h3><b>2 - Create a connection and read the data.</b></h3>
 <pre>
 >>> commonUtils = CommonUtilities()
->>> connectionClient = commonUtils.connectAndAutorizeToSeriveAccount("pass_the_service_account.json file path, you can download it from this repo /PyVisualizer/service_account.json.")
+>>> connectionClient = commonUtils.connectAndAutorizeToServiceAccount("pass_the_service_account.json file path, you can download it from this repo /PyVisualizer/service_account.json.")
 Successfully Authorized and Connected to Google Service Account. :)
->>> sheetObj = com.read_google_sheet(connectionClient,"Copy_of_Greendeck_SE_Assignment_Task_2","Sheet1") # 2nd parameter is the file name, which is already shared with test account
+>>> sheetObj = commonUtils.read_google_sheet(connectionClient,"Copy_of_Greendeck_SE_Assignment_Task_2","Sheet1") # 2nd parameter is the file name, which is already shared with test account
 >>> sheet1_data = sheetObj.get_all_records() # This return the json array
 </pre>
 
