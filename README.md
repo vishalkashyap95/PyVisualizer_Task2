@@ -16,7 +16,7 @@ A simple static visualizer, Wrapper around Gspread lib for reading the google sh
 # QuickStart
 <h3><b>1 - Import 2 classes of PyVisualizer package</b><br></h3>
 CommonUtilities class holds 2 methods.<br>
-  1 - connectAndAutorizeToSeriveAccount() : This method accepts a service_account.json file path as a parameter and return clientConnectionObject.<br>
+  1 - connectAndAutorizeToServiceAccount() : This method accepts a service_account.json file path as a parameter and return clientConnectionObject.<br>
   2 - read_google_sheet() : This method accepts 3 parameters. clientConnectionObject, Google Sheet file name, Worksheet name. It returns sheetObject for access the data.<br>
 <pre>
 >>> from PyVisualizer.CommonUtilities import CommonUtilities
