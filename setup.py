@@ -6,12 +6,12 @@ def readme():
     return README
 
 setup(
-    name="Visualization_tool",
-    version="1.0.0",
-    description="A Python package to visualize data via 2D plots.",
+    name="PyVisualizer",
+    version="1.0.1",
+    description="A simple static visualizer.",
     long_description=readme(),
     long_description_content_type="text/markdown",
-    url="",
+    url="https://github.com/vishalkashyap95/PyVisualizer_Task2.git",
     author="Vishal Kashyap",
     author_email="vkashyap569@gmail.com",
     license="MIT",
