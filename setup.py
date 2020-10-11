@@ -7,7 +7,7 @@ def readme():
 
 setup(
     name="PyVisualizer",
-    version="1.0.2",
+    version="1.0.3",
     description="A simple static visualizer.",
     long_description=readme(),
     long_description_content_type="text/markdown",
