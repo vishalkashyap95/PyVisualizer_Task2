@@ -1,6 +1,6 @@
 # PyVisualizer_Task2
 A simple static visualizer, Wrapper around Gspread lib for reading the google sheets.
-https://pypi.org/project/PyVisualizer/1.0.4/
+https://pypi.org/project/PyVisualizer
 
 # Installation
 <pre>pip install PyVisualizer</pre>
