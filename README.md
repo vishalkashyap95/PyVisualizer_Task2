@@ -33,7 +33,7 @@ Successfully Authorized and Connected to Google Service Account. :)
 >>> sheet1_data = sheetObj.get_all_records() # This return the json array
 </pre>
 
-<h3><b>3 - Converting the sheet data into pandas DataFrame and passing it to pre-defined methods</b></h3>
+<h3><b>3 - Converting the sheet data into pandas DataFrame and pass it to pre-defined methods</b></h3>
 <pre>
 >>> import pandas as pd
 >>> df = pd.DataFrame(sheet1_data)
