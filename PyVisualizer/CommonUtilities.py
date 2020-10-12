@@ -1,5 +1,5 @@
 import gspread
-
+from oauth2client.service_account import ServiceAccountCredentials
 
 class CommonUtilities:
 
@@ -11,10 +11,10 @@ class CommonUtilities:
         scope = ["https://spreadsheets.google.com/feeds", 'https://www.googleapis.com/auth/spreadsheets',
                  "https://www.googleapis.com/auth/drive.file", "https://www.googleapis.com/auth/drive"]
         try:
-            # creds = ServiceAccountCredentials.from_json_keyfile_name("new_cred.json", scope)
-            # self.client = gspread.authorize(creds)
+            creds = ServiceAccountCredentials.from_json_keyfile_name(serviceAccountFilePath, scope)
+            connectedClientObj = gspread.authorize(creds)
             # self.connectedClientObj = gspread.service_account("./service_account.json", scopes=scope)
-            connectedClientObj = gspread.service_account(serviceAccountFilePath, scopes=scope)
+            # connectedClientObj = gspread.service_account(serviceAccountFilePath)
             if type(connectedClientObj) is gspread.client.Client:
                 print("Successfully Authorized and Connected to Google Service Account. :)")
                 return connectedClientObj

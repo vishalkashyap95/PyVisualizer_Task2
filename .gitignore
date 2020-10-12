@@ -27,7 +27,7 @@ pip-log.txt
 *.mo
 
 #Mr Developer
-venv
+venv/*
 *.pyc
 build
 **.png
