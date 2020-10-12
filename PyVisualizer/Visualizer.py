@@ -1,15 +1,15 @@
 import matplotlib.pyplot as plt
 import pandas as pd
 import seaborn as sns
-# from PyVisualizer.CommonUtilities import CommonUtilities
-#
-#
-# commonUtils = CommonUtilities()
-# conn = commonUtils.connectAndAutorizeToServiceAccount("./service_account.json")
-# sheet1 = commonUtils.read_google_sheet(clientConnectionObject=conn,sGoogleSheetFileName="Copy_of_Greendeck_SE_Assignment_Task_2", sWorkSheetName="Sheet1")
-# sheet1_data = sheet1.get_all_records()
-# print(sheet1_data)
-# df = pd.DataFrame(sheet1_data)
+from PyVisualizer.CommonUtilities import CommonUtilities
+
+
+commonUtils = CommonUtilities()
+conn = commonUtils.connectAndAutorizeToServiceAccount("./service_account.json")
+sheet1 = commonUtils.read_google_sheet(clientConnectionObject=conn,sGoogleSheetFileName="Copy_of_Greendeck_SE_Assignment_Task_2", sWorkSheetName="Sheet1")
+sheet1_data = sheet1.get_all_records()
+print(sheet1_data)
+df = pd.DataFrame(sheet1_data)
 class Visualizer():
 
     def barPlotSalesByYear(self, pandasDataframe, xColName, yColName, sSaveWithFileName):
