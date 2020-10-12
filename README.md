@@ -1,5 +1,5 @@
 # PyVisualizer_Task2
-A simple static visualizer, Wrapper around Gspread(Gspread version should be 3.0.1 or above) lib for reading the google sheets.
+A simple static visualizer(I can make it dynamic though), Works as a wrapper around Gspread(version should be 3.0.1 or above) lib for reading the google sheets.
 https://pypi.org/project/PyVisualizer
 
 # Installation
