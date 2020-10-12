@@ -41,3 +41,6 @@ Successfully Authorized and Connected to Google Service Account. :)
 >>> Visualizer().barPlotSalesByMonth(pandasDataframe=df,xColName="timestamp",yColName="average_sales",sSaveWithFileName="salesByMonth.png")
 >>> Visualizer().getSalesByYearsAndMonths(df)
 </pre>
+
+<h1>Tested and it's working as expected. Here's the video guide</h1>
+<pre>https://vimeo.com/467332537</pre>
