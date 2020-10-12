@@ -23,7 +23,7 @@ setup(
     ],
     packages=["PyVisualizer"],
     include_package_data=True,
-    install_requires=["gspread==3.6.0","pandas=0.25.3","requests=2.24.0","matplotlib==3.3.2","seaborn==0.11.0"],
+    install_requires=["gspread==3.6.0","pandas==0.25.3","requests==2.24.0","matplotlib==3.3.2","seaborn==0.11.0"],
     entry_points={
         "console_scripts": [
             "PyVisualizer=PyVisualizer.Visualizer:__init__",
